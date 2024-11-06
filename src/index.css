@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    direction: rtl;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 10px;
+    background-color: rgb(231, 231, 231);
+    color: black;
+}
+
+input::placeholder {
+    color: rgb(77, 77, 77);
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 30px;
+}
